@@ -1,0 +1,275 @@
+/********LAYOUT STYLES********/
+/*********  Author: Dynasty3 ****/
+/********  URL: http://www.dynasty3.co.uk ***/
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('HelveticaNeue-Medium.eot');
+	src: url('HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeue-Medium.woff') format('woff'),
+		url('HelveticaNeue-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('HelveticaNeue-Medium_1.eot');
+	src: url('HelveticaNeue-Medium_1.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeue-Medium_1.woff') format('woff'),
+		url('HelveticaNeue-Medium_1.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+p,h1,h2,a,h3{
+	font-family: 'Helvetica Neue';
+	}
+.m-bottom{
+	margin-bottom:170px;
+	}
+header{
+	width:100%;
+	float:left;
+	height:auto;
+	height:677px;
+	background:#0000ff;
+	}
+.logo-area{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:center;
+	}
+.logo-area p{
+	color:#fff;
+	margin-top:50px;
+	font-size: 30px;
+	}
+.banner-content{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:center;
+	}
+.banner-content h1{
+	color: #fff;
+    margin-top: 50px;
+    font-size: 100px !important;
+    font-weight: 800;
+    font-family: 'Helvetica Neue';
+    word-spacing: 30px;
+    letter-spacing: 5px;
+	margin-top: 240px;
+	}
+.banner-arrow{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:center;
+	margin-top: 165px;
+	}
+/*==============================
+	menu-area styles
+	================================*/
+section.menu-area{
+	width:100%;
+	float:left;
+	height:auto;
+	padding-top:50px;
+	padding-bottom:50px;
+	}
+.menu-logo{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.menu-logo p{
+	color:#0000ff;
+	font-size:18px;
+	}
+/*=================================
+	content-area styles
+	===============================*/
+.content-area{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content p{
+	color:#0000ff;
+	line-height:22px;
+	padding-bottom:60px;
+	}
+/*============================
+	image-area styles
+	=============================*/
+.image-area{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.image-area img{
+	width:100%;
+	height:auto;
+	margin-bottom:30px;
+	}
+/*========================
+	back-area styles
+	==========================*/
+.back-area{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.back-area p{
+	color:#0000ff;
+	font-size:18px;
+	padding-top:50px;
+	}
+.next{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.next p{
+	color:#0000ff;
+	font-size:18px;
+	text-align:right;
+	}
+/*===============================
+	footer
+	================================*/
+footer{
+	width:100%;
+	float:left;
+	height:auto;
+	padding-bottom:40px;
+	}
+.footer-menu ul{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.footer-menu ul li{
+	float:left;
+	}
+.footer-menu ul li a{
+	loat: left;
+    color: #0000ff;
+    font-size: 18px;
+    display: block;
+    padding-right: 102px;
+	}
+	
+/*==============================
+	inner page styles
+	================================*/
+.content-area-inner{
+	width:100%;
+	float:left;
+	min-height:450px;
+	padding:15px;
+	}
+.inner-img{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.inner-img img{
+	width:100%;
+	float:left;
+	height:auto;
+	margin-bottom:30px;
+	}
+.dnt3 img{
+	float:left;
+	height:auto;
+	margin-bottom:30px;
+	}
+.content-area-project{
+	width:100%;
+	float:left;
+	height:auto;
+	padding-top:30px;
+	}
+.content-project{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content-project p{
+	color:#0000ff;
+	line-height:22px;
+	padding-bottom:60px;
+	}
+.content-about{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content-about p{
+	color:#0000ff;
+	line-height:22px;
+	padding-bottom:25px;
+	}
+.content-about img{
+	width:49%;
+	float:left;
+	height:auto;
+	}
+.content-contact{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content-contact p{
+	color:#0000ff;
+	line-height:22px;
+	padding-bottom:25px;
+	}
+a{
+	color:#0000ff;
+	}
+.content-about2{
+	width:100%;
+	float:left;
+	height:auto;
+	}
+.content-about2 p{
+	color:#0000ff;
+	line-height:22px;
+	padding-bottom:25px;
+	padding-left:2%;
+	}
+.dnt-img img
+{
+	height:216px;
+}
+.left, .right
+{
+	clear:both;
+}
+.right
+{
+	float:right;
+}
+
+/*for sticky menu*/
+.sticky {
+				position: fixed;
+				width: 100%;
+				z-index: 9;
+				background: #fff;
+				padding-top: 10px !important;
+				padding-bottom: 10px !important;
+				-webkit-transition: all 0.4s ease;
+                transition: all 0.4s ease;
+			}
+			.margin-sticky{
+				margin-top: 13px;
+				}            
